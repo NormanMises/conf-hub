@@ -32,7 +32,7 @@
     ./mihomo -d .
     ```
     可以把此命令写成一个脚本，如 `start.sh`，然后给 `start.sh` 添加执行权限，然后就可以用 `./start.sh` 来启动了
-7. 要保证 mihomo 在后台运行，可以使用 `tmux` 等工具挂在后台
+7. 要保证 mihomo 在后台运行，可以使用 `tmux` [参考](../config/README.md) 等工具挂在后台
 8. http 代理默认为 `http://127.0.0.1:7890`，socks5 代理为 `socks5://127.0.0.1:7890`。端口为`config.yaml`中`mixed-port`字段
 9. 在`.bashrc`中写入
     ```bash
