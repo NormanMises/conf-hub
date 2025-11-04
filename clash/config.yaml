@@ -4,10 +4,6 @@ proxy-providers:
     url: ""
     interval: 7200
     proxy: 直连
-    header:
-      User-Agent:
-      - "Clash/v1.18.0"
-      - "mihomo/1.18.3"
     health-check:
       enable: true
       url: https://www.gstatic.com/generate_204
