@@ -18,6 +18,7 @@
 5. 最后即可把这个链接填入到所有使用 mihomo 内核的代理软件订阅中，实现多端同步配置。以后想修改配置，只需要修改 `config.yaml`，然后更新订阅即可
 
 ## Linux 无 GUI 配置
+0. 先完成上面的配置得到订阅链接
 1. 下载 [mihomo 内核](https://github.com/MetaCubeX/mihomo/releases/latest) 最新版如 `mihomo-linux-amd64-v1.19.17.gz`，并解压，将解压后的文件名修改为 `mihomo`
 5. 给 `mihomo` 添加执行权限
     ```bash
